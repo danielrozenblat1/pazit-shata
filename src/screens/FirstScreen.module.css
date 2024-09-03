@@ -1,0 +1,163 @@
+.descriptionWrapperP {
+    padding-top: 80px;
+}
+
+.description {
+    color: #382003;
+    font-family: "AssistantR", serif;
+    direction: rtl;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    border-radius: 30px 30px 15px 15px;
+    box-shadow: 0 4px 6px rgba(193, 154, 107, 0.1), 0 1px 3px rgba(193, 154, 107, 0.08);
+    transition: all 0.3s ease;
+    max-width: 800px;
+    margin: 1% auto;
+    background: linear-gradient(146deg, rgba(255,247,234,1) 20%, rgba(255,243,225,1) 50%, rgba(255,247,236,1) 80%);
+}
+
+.underlined {
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    color: #613908;
+}
+
+.svgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1% auto;
+}
+
+.title {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.job {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: -0.5rem;
+}
+
+/* Responsive styles with increased proportions */
+@media (min-width: 1150px) and (max-width: 1250px) {
+    .description {
+        font-size: 1.45rem;
+        max-width: 750px;
+        padding: 2.4rem;
+    }
+    .title, .job {
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1150px) {
+    .description {
+        font-size: 1.3rem;
+        max-width: 700px;
+        padding: 2.3rem;
+    }
+    .title, .job {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1050px) {
+    .description {
+        font-size: 1.25rem;
+        max-width: 650px;
+        padding: 2.2rem;
+    }
+    .title, .job {
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 950px) {
+    .description {
+        font-size: 1.3rem;
+        max-width: 600px;
+        padding: 2.1rem;
+    }
+    .title, .job {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 750px) and (max-width: 850px) {
+    .description {
+        font-size: 1.25rem;
+        max-width: 550px;
+        padding: 2rem;
+    }
+    .title, .job {
+        max-width: 550px;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 750px) {
+    .description {
+        font-size: 1.2rem;
+        max-width: 500px;
+        padding: 1.9rem;
+    }
+    .title, .job {
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 650px) {
+    .description {
+        font-size: 1.15rem;
+        max-width: 450px;
+        padding: 1.8rem;
+    }
+    .title, .job {
+        max-width: 450px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+    .description {
+        font-size: 1.1rem;
+        max-width: 370px;
+        padding: 1.7rem;
+    }
+    .title, .job {
+        max-width: 450px;
+    }
+
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    .description {
+        font-size: 1.05rem;
+        max-width: 310px;
+        padding: 1.5rem;
+    }
+    .title, .job {
+        max-width: 400px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .description {
+        font-size: 1rem;
+        max-width: 280px;
+        padding: 1rem;
+    }
+    .title, .job {
+        max-width: 350px;
+    }
+
+}

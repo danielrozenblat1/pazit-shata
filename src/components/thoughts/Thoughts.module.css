@@ -1,0 +1,53 @@
+.thoughtBubble {
+    position: relative;
+    background-color: #fff0e7; /* שמנת עדין יותר נוטה לחום בהיר */
+    box-shadow:0 0 5px 1px #55290eb8;; /* גבול בגוון חום בהיר */
+    border-radius: 20px;
+    padding: 20px; /* הגדלתי את הפדינג להגדלת הגובה */
+  direction: rtl;
+    margin:30px auto;
+    font-family: 'AssistantR';
+    font-size: 1.1rem;
+    color: #5E503F; /* צבע טקסט כהה יותר להנגדה */
+    max-width: 200px;
+    min-height: 60px; /* הוספת גובה מינימלי */
+    text-align: right; /* יישור טקסט לימין */
+  }
+  
+  .thoughtBubble::before {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff0e7;
+    box-shadow:0 0 5px 1px #55290eb8;; /* גבול בגוון חום בהיר */
+    border-radius: 50%;
+  }
+  
+  .thoughtBubble::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    width: 15px;
+    height: 15px;
+    background-color: #fff1e7;
+    box-shadow:0 0 5px 1px #55290eb8;; /* גבול בגוון חום בהיר */
+    border-radius: 50%;
+  }
+  
+  .left::before {
+    left: 0px;
+  }
+  
+  .left::after {
+    left: -5px;
+  }
+  
+  .right::before {
+    right: 0px;
+  }
+  
+  .right::after {
+    right: -5px;
+  }
