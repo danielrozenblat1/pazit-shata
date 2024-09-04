@@ -58,6 +58,9 @@
     .title, .job {
         max-width: 750px;
     }
+    .what{
+        font-size: 1.25rem;
+    }
 }
 
 @media (min-width: 1050px) and (max-width: 1150px) {
@@ -68,6 +71,9 @@
     }
     .title, .job {
         max-width: 600px;
+    }
+    .what{
+        font-size: 1.2rem;
     }
 }
 
@@ -80,6 +86,9 @@
     .title, .job {
         max-width: 650px;
     }
+    .what{
+        font-size: 1.15rem;
+    }
 }
 
 @media (min-width: 850px) and (max-width: 950px) {
@@ -90,6 +99,9 @@
     }
     .title, .job {
         max-width: 600px;
+    }
+    .what{
+        font-size: 1.15rem;
     }
 }
 
@@ -102,6 +114,9 @@
     .title, .job {
         max-width: 550px;
     }
+    .what{
+        font-size: 1.1rem;
+    }
 }
 
 @media (min-width: 650px) and (max-width: 750px) {
@@ -112,6 +127,9 @@
     }
     .title, .job {
         max-width: 500px;
+    }
+    .what{
+        font-size: 1.1rem;
     }
 }
 
@@ -124,6 +142,9 @@
     .title, .job {
         max-width: 450px;
     }
+    .what{
+        font-size: 1.1rem;
+    }
 }
 
 @media (min-width: 450px) and (max-width: 550px) {
@@ -135,7 +156,9 @@
     .title, .job {
         max-width: 450px;
     }
-
+    .what{
+        font-size: 1.1rem;
+    }
 }
 
 @media (min-width: 350px) and (max-width: 450px) {
@@ -147,7 +170,9 @@
     .title, .job {
         max-width: 400px;
     }
-
+    .what{
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 350px) {
@@ -159,5 +184,7 @@
     .title, .job {
         max-width: 350px;
     }
-
+    .what{
+        font-size: 1.1rem;
+    }
 }

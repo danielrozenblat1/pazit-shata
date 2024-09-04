@@ -10,6 +10,7 @@ const SecondScreen=()=>{
 
     return <>
 <div className={styles.title}>אני יודעת בדיוק מה את חושבת על תהליכי הרזיה</div>
+<div className={styles.description}>וזה הולך ככה..</div>
 <div className={styles.row}>
 <ThoughtBubble text="ניסיתי כבר המון תהליכים בעבר שלא הצליחו" direction="left" />
 <ThoughtBubble text="אני תמיד נעצרת בשלב מסויים וחוזרת לאותו משקל הרבה יותר מיואשת" direction="right" />

@@ -27,16 +27,7 @@ const FirstScreen = (props) => {
                     </text>
                 </svg>
                 
-                <svg className={styles.job} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 60">
-                    <defs>
-                        <path id="curve2" d="M20,50 Q300,10 580,50" fill="none" stroke="none" />
-                    </defs>
-                    <text fill="#6B4423" fontSize="1.8rem" fontFamily="AssistantR, serif" direction="rtl" lang="heb">
-                        <textPath href="#curve2" startOffset="50%" textAnchor="middle">
-                            ריפוי עצמי תזונה טבעית לנשים
-                        </textPath>
-                    </text>
-                </svg>
+                    
             </div>
 
             <style jsx>{`

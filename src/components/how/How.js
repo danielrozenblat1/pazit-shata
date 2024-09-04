@@ -95,7 +95,7 @@ const CustomizedTimeline = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item1" textAlign="right" direction="rtl" marginBottom="0">
-            בניית תשתית קביעת יעדים ומטרות טיפול
+            בניית תשתית + קביעת יעדים
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item1" textAlign="right" marginBottom="0">
              נשוחח , נכיר ונבין במה אנחנו צריכות להתמקד יותר בתהליך
@@ -147,7 +147,7 @@ const CustomizedTimeline = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item2" textAlign="right" direction="rtl" marginBottom="0">
-            עיבוד הדרך להיות אישה מאוזנת בגוף ובנפש
+            עיבוד הדרך לאיזון גוף ונפש
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item2" textAlign="right" marginBottom="0">
         עם הזמן את תשימי לב שאת משתנה מבפנים - השינוי כלפי חץ יגיע מהר מאוד יחד עם השינוי הפנימי
@@ -173,7 +173,7 @@ const CustomizedTimeline = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item3" textAlign="right" direction="rtl" marginBottom="0">
-            הכרנו קצת יותר והמסוגלות האישית שלך נבנתה
+            המסוגלות האישית שלך נבנית
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item3" textAlign="right" marginBottom="0">
             אנחנו  נפגשות לפגישה תזונתית והוליסטית בו אני מתאימה את התזונה והתנהלות הבריאותית שלך יחד איתך לפי הייחודיות הביולוגית שלך בהתאם לבדיקות דם מקיפות
@@ -199,7 +199,7 @@ const CustomizedTimeline = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item2" textAlign="right" direction="rtl" marginBottom="0">
-            הדרך להשתחרר מאכילה רגשית ולהיות מאוזנת הורמנלית
+            שחרור מאכילה רגשית + איזון הורמנלי
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item2" textAlign="right" marginBottom="0">
      ברגע שתהי מאוזנת עם עצמך ובטוחה בתהליך - האכילה הרגשית תתחיל להעלם!
@@ -225,10 +225,10 @@ const CustomizedTimeline = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item3" textAlign="right" direction="rtl" marginBottom="0">
-            שינוי הרגלי אכילה, כלי שמאיץ שריפת שומנים בכיף ומשאיר אותך שבעה
+            שינוי הרגלי אכילה
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item3" textAlign="right" marginBottom="0">
-           אחרי השינוי יהיה ניכר לעין , נתחיל לשנות את הרגלי האכילה שלך למאוזנים ובריאים יותר!
+           אחרי השינוי יהיה ניכר לעין , נתחיל לשנות את הרגלי האכילה שלך למאוזנים ובריאים יותר שיהפכו אותך לשבעה יותר במהלך היום!
             </Typography>
           </TimelineContent>
         </TimelineItem>
