@@ -31,7 +31,7 @@ const FirstScreen = (props) => {
                     <defs>
                         <path id="curve2" d="M20,50 Q300,10 580,50" fill="none" stroke="none" />
                     </defs>
-                    <text fill="#6B4423" fontSize="1.8rem" fontFamily="AssistantR, serif">
+                    <text fill="#6B4423" fontSize="1.8rem" fontFamily="AssistantR, serif" direction="rtl" lang="heb">
                         <textPath href="#curve2" startOffset="50%" textAnchor="middle">
                             ריפוי עצמי תזונה טבעית לנשים
                         </textPath>
