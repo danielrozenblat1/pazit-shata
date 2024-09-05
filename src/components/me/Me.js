@@ -4,7 +4,7 @@ import meshi from "../../images/פזית שטה.png"
 
 const AboutMe = () => {
   return <>
-      <div className={styles.header} id="קצת עלי">איך אני יודעת את זה?</div>
+      <div className={styles.header} id="מי אני">איך אני יודעת את זה?</div>
     <div className={styles.container}>
       <div className={styles.imageContainer}>
         <img src={meshi} alt="פזית שטה" className={styles.image} />
