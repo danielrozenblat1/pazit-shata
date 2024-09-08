@@ -5,11 +5,8 @@
   width: 90%;
   margin: 2% auto;
   direction: rtl;
-  background: linear-gradient(to right, #8B4513, #5D4037);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+  color: rgb(66, 43, 11);
+
 }
 
 .description {

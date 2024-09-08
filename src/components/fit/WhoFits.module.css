@@ -5,7 +5,7 @@
 
 .checkmark {
   font-size: 30px; 
-  color: #D2691E; /* Chocolate */
+  color: #4a2409; /* Chocolate */
 }
 
 .wrapY {
@@ -31,7 +31,7 @@
   justify-content: flex-start;
   direction: rtl;
   width: 85%;
-  color: #5D4037; /* Dark Brown */
+  color: #fcc3b2; /* Dark Brown */
   padding: 15px 20px;
 }
 
@@ -49,8 +49,8 @@
   font-size: 2rem;
   font-family: "Assistant";
   text-align: center;
-  color: #3f1907; /* Sienna */
-  text-shadow: 1px 1px 5px rgba(160, 82, 45, 0.3);
+  color: #614425; /* Sienna */
+  text-shadow: 2px 2px 3px rgba(160, 82, 45, 0.2);
 }
 
 .description {

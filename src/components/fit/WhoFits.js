@@ -86,7 +86,7 @@ const WhoFits = () => {
           <div className={styles.text}>
             <span className={styles.checkmark}>✓</span>
             <div className={styles.description}>
-              נשים ללא מחלות רקע
+              גם נשים עם מחלות רקע
             </div>
           </div>
         </div>

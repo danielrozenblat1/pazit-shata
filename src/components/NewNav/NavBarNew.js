@@ -6,6 +6,7 @@ import { FaInstagram, FaFacebook, FaWhatsapp, FaBars, FaTimes } from 'react-icon
 
 const NavBarNew = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isClosing, setIsClosing] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const [isSticky, setIsSticky] = useState(false);
 
@@ -14,7 +15,6 @@ const NavBarNew = () => {
     let lastScrollY = window.scrollY;
     let ticking = false;
 
-    
     const handleScroll = () => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
@@ -38,25 +38,28 @@ const NavBarNew = () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
   const handleClick = () => {
     const phoneNumber = "+972526841001";
-    // Set the message content
-    const message ="היי פזית ,אני רוצה לשמוע ממך עוד על..";
-
-    // Encode the message for the URL
+    const message = "היי פזית ,אני רוצה לשמוע ממך עוד על..";
     const encodedMessage = encodeURIComponent(message);
-    // Construct the WhatsApp message URL with phone number and message
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-  
-    // Open the URL in a new tab
     window.open(whatsappURL, "_blank");
-
   };
-  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
-  const closeMenu = () => setIsMenuOpen(false);
+  const toggleMenu = () => {
+    if (isMenuOpen) {
+      setIsClosing(true);
+      setTimeout(() => {
+        setIsMenuOpen(false);
+        setIsClosing(false);
+      }, 500);
+    } else {
+      setIsMenuOpen(true);
+    }
+  };
 
-  const menuItems = ['Happy Genetic Women', 'טיפים, תשובות ואמונות', ,'מי אני' ];
+  const menuItems = ['Happy Genetic Women', 'טיפים, תשובות ואמונות', 'מי אני'];
 
   return (
     <nav className={`${styles.navbar} ${isSticky ? styles.sticky : ''}`}>
@@ -70,21 +73,26 @@ const NavBarNew = () => {
           <img src={logo} alt="Logo" />
         </div>
       )}
-      {isMenuOpen && windowWidth <= 850 && (
-        <div className={styles.mobileMenu}>
-          {menuItems.map((item, index) => (
-            <ScrollLink 
-              key={index} 
-              to={item} 
-              smooth={true} 
-              offset={-100}
-              duration={700} 
-              onClick={closeMenu}
-            >
-              {item}
-            </ScrollLink>
-          ))}
-            <div classsName={styles.center}><img className={styles.image} src={logo} alt="פזית שטה לוגו"/></div>
+      {(isMenuOpen || isClosing) && windowWidth <= 850 && (
+        <div className={`${styles.mobileMenu} ${isClosing ? styles.closing : ''}`}>
+          <div className={styles.mobileMenuContent}>
+            {menuItems.map((item, index) => (
+              <ScrollLink 
+                key={index} 
+                to={item} 
+                smooth={true} 
+                offset={-100}
+                duration={700} 
+                onClick={toggleMenu}
+                className={styles.mobileMenuItem}
+              >
+                {item}
+              </ScrollLink>
+            ))}
+            <div className={styles.center}>
+              <img className={styles.image} src={logo} alt="פזית שטה לוגו"/>
+            </div>
+          </div>
         </div>
       )}
       {windowWidth > 850 && (
@@ -100,17 +108,16 @@ const NavBarNew = () => {
               {item}
             </ScrollLink>
           ))}
-        
         </div>
       )}
-         
-       {window.innerWidth>1050&& <div className={styles.logo}>
+      {windowWidth > 1050 && (
+        <div className={styles.logo}>
           <img src={logo} alt="Logo" />
-        </div>}
-      
+        </div>
+      )}
       <div className={styles.socialIcons}>
-      <a href="https://www.instagram.com/pazit.selfhealing.nutrition/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-        <a onClick={handleClick} ><FaWhatsapp /></a>
+        <a href="https://www.instagram.com/pazit.selfhealing.nutrition/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+        <a onClick={handleClick}><FaWhatsapp /></a>
       </div>
     </nav>
   );

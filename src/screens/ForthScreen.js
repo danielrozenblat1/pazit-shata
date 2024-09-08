@@ -1,17 +1,17 @@
 import Rectangle from "../components/feel/Feel"
 import styles from "./ForthScreen.module.css"
-import loop from "../images/לופ אכילה.png"
-import meet from "../images/פגישה.jpg"
-import food from "../images/מאכלים אהובים.png"
-import toomuch from "../images/אכלה הרבה.png"
+import loop from "../Icons/wired-outline-233-arrow-22-hover-cycle.json"
+import meet from "../Icons/wired-outline-981-consultation-hover-conversation.json"
+import food from "../Icons/wired-outline-562-fastfood-hover-pinch.json"
+import toomuch from "../Icons/wired-outline-608-kitchen-scale-hover-pinch.json"
 import Button from "../components/button/Button"
-import medecine from "../images/תרופות.jpg"
+import medecine from "../Icons/wired-outline-1215-syrup-medicine-hover-pinch.json"
 const ForthScreen=()=>{
  
 return <>
 <div className={styles.title} id="טיפים, תשובות ואמונות">כמה תשובות וטיפים ממני</div>
 <Rectangle 
-      imageUrl={loop}
+      icon={loop}
       title="איך להמנע מלופ של אכילה רגשית"
       description="
 הנה עובדה מעניינת.. במערכת הלימבית יש אזור במוח
@@ -22,7 +22,7 @@ return <>
 פשוט מאוד  ללמד את המוח שלנו שהשינוי הוא תקין הוא בסדר. שאת לא צריכה הגנה."
     />
 <Rectangle 
-      imageUrl={medecine}
+      icon={medecine}
       title="את מטפלת בתחום הרפואה המשלימה והאינטגרטיבית, מה את חושבת על תרופות?"
       description="אני לא נגד תרופות. אני נגד לתת לאנשים פלסתר כמענה ראשוני. יש היום המון בעיות בריאות שאפשר להגיע לריפוי ולרמיסיה משמעותית של המחלה ללא תרופות, כמו סכרת סוג 2, תת פעילות בלוטת בתריס, מיגרנות ועוד. ויש מחקרים איכותיים ותוצאות בשטח.
 הבעיה האמיתית שיש אנשים שלא מודעים שקיימות אפשרות נוספת. מבחינתם זה רק תרופות כי זה מה שאמרו להם
@@ -30,12 +30,12 @@ return <>
 כמובן לא מדובר בהמלצה אישית וכל מקרה לגופו."
     />
 <Rectangle 
-      imageUrl={food}
+      icon={food}
       title="אני חייבת לוותר על המאכלים האהובים עלי כדי להרזות?"
       description="ממש לא! ויותר מזה.. כשאת מאוזנת ואוכלת מבחירה ולא אכילה רגשית - את תאכלי את המאכלים האהובים עלייך כי את רוצה ולא כי את צריכה! "
     />
     <Rectangle 
-      imageUrl={toomuch}
+      icon={toomuch}
       title="מה לעשות אם אכלתי יותר ממה שרציתי?"
       description="האכילה שלך זה לא את 
 הבסיס הראשוני להצלחה זה לא לתת לאוכל להגדיר את מצבי הרוח שלך
@@ -45,7 +45,7 @@ return <>
 את אישה מהממת, מדהימה, ראויה מעצם היותך ללא שום תלות בסוג המזון שאכלת"
     />
         <Rectangle 
-      imageUrl={meet}
+      icon={meet}
       title="למה את לא עושה רק פגישה אחת ?"
       description="אני לא מאמינה בפגישה אחת. אלא בתהליך שלם. פגישה אחת אפשר ללכת לאנשי מקצוע אחרים
 כאן מדובר בתהליך שלם סיסטמטי זה לא ברמת סיסמא פה וסיסמא שם,

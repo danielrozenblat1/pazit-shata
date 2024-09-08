@@ -12,27 +12,18 @@ const FirstScreen = (props) => {
 
             <div className={styles.svgContainer}>
                 <svg className={styles.title} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120">
-                    <defs>
-                        <linearGradient id="titleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stopColor="#8B4513" />
-                            <stop offset="50%" stopColor="#654321" />
-                            <stop offset="100%" stopColor="#5D4037" />
-                        </linearGradient>
-                        <path id="curve1" d="M20,100 Q300,20 580,100" fill="none" stroke="none" />
-                    </defs>
+                    <path id="curve1" d="M20,100 Q300,20 580,100" fill="none" stroke="none" />
                     <text fontSize="3.5rem" fontFamily="Assistant, serif" fontWeight="bold">
                         <textPath href="#curve1" startOffset="50%" textAnchor="middle">
-                            <tspan fill="url(#titleGradient)">Happy Genetic Women</tspan>
+                            <tspan fill="rgb(66, 43, 11)">Happy Genetic Women</tspan>
                         </textPath>
                     </text>
                 </svg>
-                
-                    
             </div>
 
             <style jsx>{`
                 .svgContainer {
-                    background: linear-gradient(146deg, rgba(255,244,234,1) 20%, rgba(255,239,209,1) 50%, rgba(255,245,232,1) 80%);
+                    background: linear-gradient(146deg, rgba(144,88,43,1) 15%, rgba(171,131,115,1) 35%, rgba(171,131,115,1) 60%, rgba(144,88,43,1) 85%);
                     padding: 20px;
                     border-radius: 10px;
                 }

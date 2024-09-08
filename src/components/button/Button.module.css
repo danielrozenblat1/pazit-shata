@@ -4,15 +4,9 @@
     margin:2% auto;
 }
 .button {
-  background: linear-gradient(135deg, 
-    #f0e8dc,  /* בז' בהיר יותר */
-    #e0c9a89a,  /* חום בהיר יותר */
-    #d1b18bb3,  /* חום בינוני בהיר יותר */
-    #f2e9dc,  /* בז' חם בהיר יותר */
-    #f0d1a0c4   /* זהב עדין בהיר יותר */
-  );
+  background:#d9c2ab;  /* חום בהיר יותר */
     border: none;
-    color: #563100;
+    color: #000000;
     padding: 15px 25px;
     font-size: 1.2rem;
     font-family: "Assistant";
@@ -20,30 +14,20 @@
     border-radius: 15px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(57, 20, 1, 0.3);
     cursor: pointer;
     transition: all 1s ease;
   }
   
   .button:hover {
-    background: linear-gradient(135deg, 
-    #f0e8dc,  /* בז' בהיר יותר */
-    #e0c9a8,  /* חום בהיר יותר */
-    #d1b18b,  /* חום בינוני בהיר יותר */
-    #f2e9dc,  /* בז' חם בהיר יותר */
-    #f0d1a0   /* זהב עדין בהיר יותר */
-  );
+    background:#d5bc99;  /* חום בהיר יותר */
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
   }
   
   .button:active {
-    background: linear-gradient(135deg, 
-    #f0e8dc,  /* בז' בהיר יותר */
-    #e0c9a8,  /* חום בהיר יותר */
-    #d1b18b,  /* חום בינוני בהיר יותר */
-    #f2e9dc,  /* בז' חם בהיר יותר */
-    #f0d1a0   /* זהב עדין בהיר יותר */
-  );
+    background:#d8c1a0;  /* חום בהיר יותר */
+
+
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transform: translateY(2px);
   }
