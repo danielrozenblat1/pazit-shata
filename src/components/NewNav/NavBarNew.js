@@ -118,6 +118,7 @@ const NavBarNew = () => {
       <div className={styles.socialIcons}>
         <a href="https://www.instagram.com/pazit.selfhealing.nutrition/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
         <a onClick={handleClick}><FaWhatsapp /></a>
+        <a href="https://www.facebook.com/pazitshata" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
       </div>
     </nav>
   );
