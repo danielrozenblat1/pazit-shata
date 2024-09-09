@@ -202,7 +202,7 @@ const CustomizedTimeline = () => {
             שחרור מאכילה רגשית + איזון הורמנלי
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item2" textAlign="right" marginBottom="0">
-     ברגע שתהי מאוזנת עם עצמך ובטוחה בתהליך - האכילה הרגשית תתחיל להעלם!
+     ברגע שתהי מאוזנת עם עצמך ובטוחה בתהליך - האכילה הרגשית תתחיל להתאזן והשליטה תחזור לידיים שלך!
             </Typography>
           </TimelineContent>
         </TimelineItem>

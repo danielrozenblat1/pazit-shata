@@ -58,7 +58,7 @@ const WhoFits = () => {
           <div className={styles.text}>
             <span className={styles.checkmark}>✓</span>
             <div className={styles.description}>
-              מי שלא מחפשת פלסתר לפצע, אלא לפתור את הבעיה מהשורש
+              מי שלא מחפשת פלסתר לפצע, אלא באמת לפתור את הבעיה
             </div>
           </div>
 
@@ -86,7 +86,13 @@ const WhoFits = () => {
           <div className={styles.text}>
             <span className={styles.checkmark}>✓</span>
             <div className={styles.description}>
-              גם נשים עם מחלות רקע
+            למי שרעבה כל הזמן, מתוסכלת ומנופחת ורוצה להיות שבעה לאזן משקל לפי מה מתאים לה
+            </div>
+          </div>
+          <div className={styles.text}>
+            <span className={styles.checkmark}>✓</span>
+            <div className={styles.description}>
+            למי שסובלת מבעיות בריאותיות ורוצה לשפר את בריאותה
             </div>
           </div>
         </div>

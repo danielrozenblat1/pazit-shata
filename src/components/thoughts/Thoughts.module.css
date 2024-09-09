@@ -2,7 +2,7 @@
     position: relative;
     background-color: #fff0e7; /* שמנת עדין יותר נוטה לחום בהיר */
     box-shadow:0 0 5px 1px #55290eb8;; /* גבול בגוון חום בהיר */
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 20px; /* הגדלתי את הפדינג להגדלת הגובה */
   direction: rtl;
     margin:30px auto;

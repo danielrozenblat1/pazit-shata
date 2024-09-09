@@ -14,7 +14,7 @@
     transition: all 0.3s ease;
     max-width: 800px;
     margin: 1% auto;
-    background: linear-gradient(146deg, rgba(255,247,234,1) 20%, rgba(255,243,225,1) 50%, rgba(255,247,236,1) 80%);
+    background: #fff0e7
 }
 
 .underlined {

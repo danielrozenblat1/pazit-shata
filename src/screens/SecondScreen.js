@@ -38,7 +38,7 @@ const SecondScreen=()=>{
 <div className={styles.row}>
 
 <What icon={discomfort} description="הזנחה עצמית"/>
-<What icon={judge} description="שפיטה עצמית"/>
+<What icon={judge} description="שפיטה עצמית מול המראה"/>
 
 </div>
 <AboutMe/>
