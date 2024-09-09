@@ -7,7 +7,7 @@ import secure from "../Icons/wired-outline-285-avatar-female-approved.json"
 import energy from "../Icons/wired-outline-633-female-hover-success.json"
 import cry from "../Icons/wired-outline-266-emoji-cry-hover-pinch.json"
 import sad from "../Icons/wired-outline-263-emoji-sad-hover-pinch.json"
-import judge from "../Icons/wired-outline-1629-bathtub-mirror-hover-pinch.json"
+import judge from "../Icons/wired-outline-1589-makeup-mirror-hover-pinch.json"
 import discomfort from "../Icons/wired-outline-283-avatar-female-cross-hover-pinch.json"
 import good from "../Icons/wired-outline-267-like-thumb-up.json"
 import Button from "../components/button/Button"
@@ -38,7 +38,7 @@ const SecondScreen=()=>{
 <div className={styles.row}>
 
 <What icon={discomfort} description="הזנחה עצמית"/>
-<What icon={judge} description="שפיטה עצמית מול המראה"/>
+<What icon={judge} description="שפיטה עצמית"/>
 
 </div>
 <AboutMe/>
