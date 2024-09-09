@@ -1,7 +1,7 @@
 .thoughtBubble {
     position: relative;
     background-color: #fff0e7; /* שמנת עדין יותר נוטה לחום בהיר */
-    box-shadow:0 0 5px 1px #55290eb8;; /* גבול בגוון חום בהיר */
+    box-shadow:0 0 5px 1px #8d8d8db8;; /* גבול בגוון חום בהיר */
     border-radius: 30px;
     padding: 20px; /* הגדלתי את הפדינג להגדלת הגובה */
   direction: rtl;
@@ -21,7 +21,7 @@
     width: 30px;
     height: 30px;
     background-color: #fff0e7;
-    box-shadow:0 0 5px 1px #55290eb8;; /* גבול בגוון חום בהיר */
+    box-shadow:0 0 5px 1px #8d8d8db8;; /* גבול בגוון חום בהיר */
     border-radius: 50%;
   }
   
@@ -32,7 +32,7 @@
     width: 15px;
     height: 15px;
     background-color: #fff1e7;
-    box-shadow:0 0 5px 1px #55290eb8;; /* גבול בגוון חום בהיר */
+    box-shadow:0 0 5px 1px #8d8d8db8;; /* גבול בגוון חום בהיר */
     border-radius: 50%;
   }
   
