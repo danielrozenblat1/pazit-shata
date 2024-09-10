@@ -40,49 +40,6 @@ const WhoFits = () => {
         <div className={styles.wrapY}>
           <h1 className={styles.header}>מי מתאימה לתהליך:</h1>
           <Player icon={fit} ref={playerRef} size="30%" loop={true} onComplete={handleComplete}></Player>
-          
-          <div className={styles.text}>
-            <span className={styles.checkmark}>✓</span>
-            <div className={styles.description}>
-              מי שמאמינה בתהליכי גוף נפש
-            </div>
-          </div>
-
-          <div className={styles.text}>
-            <span className={styles.checkmark}>✓</span>
-            <div className={styles.description}>
-              מי שמוכנה להתמסר לתהליך
-            </div>
-          </div>
-
-          <div className={styles.text}>
-            <span className={styles.checkmark}>✓</span>
-            <div className={styles.description}>
-              מי שלא מחפשת פלסתר לפצע, אלא באמת לפתור את הבעיה
-            </div>
-          </div>
-
-          <div className={styles.text}>
-            <span className={styles.checkmark}>✓</span>
-            <div className={styles.description}>
-              מי שמוכנה להשקיע בעצמה
-            </div>
-          </div>
-
-          <div className={styles.text}>
-            <span className={styles.checkmark}>✓</span>
-            <div className={styles.description}>
-              מי שמוכנה לשתף פעולה עם התהליך ולהיות אופטימית
-            </div>
-          </div>
-
-          <div className={styles.text}>
-            <span className={styles.checkmark}>✓</span>
-            <div className={styles.description}>
-              מי שמחוייבת לתהליך
-            </div>
-          </div>
-
           <div className={styles.text}>
             <span className={styles.checkmark}>✓</span>
             <div className={styles.description}>
@@ -92,9 +49,48 @@ const WhoFits = () => {
           <div className={styles.text}>
             <span className={styles.checkmark}>✓</span>
             <div className={styles.description}>
+              למי שמאמינה בתהליכי גוף נפש
+            </div>
+          </div>
+          <div className={styles.text}>
+            <span className={styles.checkmark}>✓</span>
+            <div className={styles.description}>
             למי שסובלת מבעיות בריאותיות ורוצה לשפר את בריאותה
             </div>
           </div>
+
+          <div className={styles.text}>
+            <span className={styles.checkmark}>✓</span>
+            <div className={styles.description}>
+              למי שמוכנה להתמסר לתהליך ולהשקיע בעצמה
+            </div>
+          </div>
+
+          <div className={styles.text}>
+            <span className={styles.checkmark}>✓</span>
+            <div className={styles.description}>
+              למי שלא מחפשת פלסתר לפצע, אלא באמת לפתור את הבעיה
+            </div>
+          </div>
+
+          <div className={styles.text}>
+            <span className={styles.checkmark}>✓</span>
+            <div className={styles.description}>
+              למי שמחוייבת לתהליך
+            </div>
+          </div>
+
+      
+
+          <div className={styles.text}>
+            <span className={styles.checkmark}>✓</span>
+            <div className={styles.description}>
+            למי שמצבי הרוח שלה תלויים באוכל שמחה, עצב, כעס וכדומה
+            </div>
+          </div>
+
+      
+      
         </div>
       </div>
       <Button text="אני מתאימה לתהליך, בואי נדבר"/>
