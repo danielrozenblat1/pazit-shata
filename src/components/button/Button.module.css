@@ -1,0 +1,43 @@
+.center{
+    display: flex;
+    justify-content: center;
+    margin:2% auto;
+}
+.button {
+  background:#d9c2ab;  /* חום בהיר יותר */
+    border: none;
+    color: #000000;
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-family: "Assistant";
+    direction: rtl;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(57, 20, 1, 0.3);
+    cursor: pointer;
+    transition: all 1s ease;
+  }
+  
+  .button:hover {
+    background:#d5bc99;  /* חום בהיר יותר */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button:active {
+    background:#d8c1a0;  /* חום בהיר יותר */
+
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transform: translateY(2px);
+  }
+  @media screen and (max-width: 350px) {
+    .button {
+      font-size: 1rem;
+    }
+  }
+  @media screen  and (min-width: 350px) and (max-width: 450px)  {
+    .button {
+      font-size: 1.1rem;
+    }
+  }
